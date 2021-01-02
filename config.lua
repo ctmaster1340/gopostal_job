@@ -1,18 +1,18 @@
 Config              = {}
 Config.DrawDistance = 100.0
-Config.Locale       = 'fr'
+Config.Locale       = 'de'
 
-Config.JobVehiclePlate = 'GOPOSTAL' -- Plaque des vehicules du job (maximun 8 caractères)
-Config.MaxLetter	   = 4 -- Maximum de lettre par point
-Config.MinLetter	   = 1 -- Maximum de lettre par point
-Config.MaxColis		   = 2 -- Maximum de colis par point
-Config.MinColis		   = 0 -- Maximum de colis par point
+Config.JobVehiclePlate = 'GOPOSTAL' -- Arbeitsfahrzeugschild (maximal 8 Zeichen)
+Config.MaxLetter	   = 4 -- Maximale Buchstaben pro Punkt
+Config.MinLetter	   = 1 -- Maximale Buchstaben pro Punkt
+Config.MaxColis		   = 2 -- Maximale Pakete pro Punkt
+Config.MinColis		   = 0 -- Maximale Pakete pro Punkt
 
 Config.Caution 		   = 2000
 Config.PricePerLetter  = 7
 Config.PricePerColis   = 15
 
-Config.Vehicle = { -- Ajouter les véhicules du métier ici
+Config.Vehicle = { -- Fügen Sie hier Handelsfahrzeuge hinzu
 	"boxville2"
 }
 
@@ -33,7 +33,7 @@ Config.Zones = { -- Emplacement des points
 
 	VehicleSpawnPoint = {
 		Pos     = {x = 66.232, y = 121.310, z = 79.112},
-		Heading = 160.0, -- Orientation 
+		Heading = 160.0, -- Orientierung
 		Size    = {x = 3.0, y = 3.0, z = 1.0},
 		Type    = -1
 	},
@@ -45,7 +45,7 @@ Config.Zones = { -- Emplacement des points
 		Type  = 1
 	},
 
-	Distribution = { -- point pr récuperer les colis & courrier
+	Distribution = { --Punkt, um Pakete und Post zu sammeln
 		Pos   = {x = 115.141, y = 100.649, z = 79.890},
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 236, g = 240, b = 241},
@@ -53,7 +53,7 @@ Config.Zones = { -- Emplacement des points
 	},
 }
 
-Config.Uniforms = { -- Tenue de service
+Config.Uniforms = { -- Servicekleidung
 	
 	male = {
 		['tshirt_1'] = 57,  ['tshirt_2'] = 0,
@@ -80,8 +80,7 @@ Config.Uniforms = { -- Tenue de service
 }
 
 
--- Point des livraisons
-
+--Lieferort
 Config.Livraisons = {
 	Richman = {
 		Pos = {
